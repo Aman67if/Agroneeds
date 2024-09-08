@@ -33,16 +33,16 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="h-16 w-full flex items-center justify-between px-3 xl:px-8 bg-green-700 fixed top-0 left-0 z-10">
+      <div className="h-16 w-full flex items-center justify-between px-3 xl:px-8 bg-gray-200 shadow-2xl fixed top-0 left-0 z-10">
         <div className="logo h-12 w-auto">
           <img
-            src="/logo.png"
+            src="/logo2.png"
             alt="logo"
             className="h-[2.8rem] xl:h-[3.1rem] w-auto object-contain cursor-pointer"
           />
         </div>
         <div className="hidden xl:block">
-          <div className="menuPage h-10 w-[40rem] bg-white/30 backdrop-blur-lg border border-white/20 shadow-lg  flex items-center justify-center gap-[30px] rounded-3xl">
+          <div className="menuPage h-10 w-[40rem] bg-green-700 backdrop-blur-lg border border-white/20 shadow-lg  flex items-center justify-center gap-[30px] rounded-3xl">
             <Link to="/">
               <h4 className="cursor-pointer font-medium text-white">HOME</h4>
             </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
         <div className="block xl:hidden relative">
           <div
             onClick={menuOpenAndClose}
-            className="menuCircle bg-white/30 backdrop-blur-lg border border-white/20 shadow-lg h-[3rem] w-[3rem] flex items-center justify-center rounded-full"
+            className="menuCircle bg-green-700 backdrop-blur-lg border border-white/20 shadow-lg h-[3rem] w-[3rem] flex items-center justify-center rounded-full"
           >
             <img
               src="/menu.svg"

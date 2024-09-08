@@ -6,12 +6,13 @@ import About from './pages/About.jsx';
 import Login from './pages/Login.jsx';
 import Join from './pages/Join.jsx';
 import Navbar from './Navbar.jsx';
-import "./index.css";
 import Agricultre from "./pages/Agricultre.jsx";
 import SoilManagement from "./pages/SoilManagement.jsx";
 import UpcomingProducts from "./pages/UpcomingProducts.jsx";
 import AllProducts from "./pages/AllProducts.jsx";
 import Contact from "./pages/Contact.jsx";
+import Payment from "./pages/Payment.jsx";
+import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -27,6 +28,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/login" element={<Login />} />
         <Route path="/join" element={<Join />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/payment" element={<Payment />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
