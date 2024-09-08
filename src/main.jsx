@@ -11,7 +11,7 @@ import Agricultre from "./pages/Agricultre.jsx";
 import SoilManagement from "./pages/SoilManagement.jsx";
 import UpcomingProducts from "./pages/UpcomingProducts.jsx";
 import AllProducts from "./pages/AllProducts.jsx";
-import Contact from "./pages/contact.jsx";
+import Contact from "./pages/Contact.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
